@@ -13,6 +13,8 @@ import org.springframework.beans.factory.BeanFactoryAware;
 
 public class DynamicDataSourceAnnotationAdvisor extends AbstractPointcutAdvisor
     implements BeanFactoryAware {
+
+
   private Advice advice;
 
   private Pointcut pointcut;
